@@ -17,7 +17,9 @@
 <!-- Demo DOM module -->
 <dom-module id="px-modal-demo">
   <template>
-    <style include="px-demo-styles" is="custom-style"></style>
+    <custom-style>
+      <style include="px-demo-styles" is="custom-style"></style>
+    </custom-style>
 
     <!-- Header -->
     <px-demo-header
@@ -40,7 +42,7 @@
               btn-modal-positive="{{props.btnModalPositive.value}}"
               btn-modal-negative="{{props.btnModalNegative.value}}"
               modal-heading="{{props.modalHeading.value}}">
-              <button class='btn btn--primary modal-trigger'>Open Modal</button>
+              <button class="btn btn--primary" action="trigger">Open Modal</button>
               <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
           </px-modal>
         </div>
@@ -114,7 +116,7 @@
 
       lightDomContent: {
         type: String,
-        defaultValue: "<button class='btn btn--primary modal-trigger'>Open Modal</button><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+        defaultValue: "<button class=\"btn btn--primary\" action=\"trigger\">Open Modal</button><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
       }
 
     }

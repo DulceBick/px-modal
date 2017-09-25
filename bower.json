@@ -21,7 +21,7 @@
     "npm-debug.log"
   ],
   "dependencies": {
-    "polymer": "^1.9.0"
+    "polymer": "^2.0.0"
   },
   "devDependencies": {
     "px-theme": "^3.0.0",
@@ -34,6 +34,7 @@
     "px-headings-design": "^1.0.3"
   },
   "resolutions": {
-    "webcomponentsjs": "^0.7.24"
+    "polymer": "^2.0.0",
+    "webcomponentsjs": "^v1.0.2"
   }
 }

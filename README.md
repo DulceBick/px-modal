@@ -38,7 +38,7 @@ Modal triggered by button click
   btn-modal-positive="Continue"
   btn-modal-negative="Back"
   modal-heading="Sign-in required">
-    <button class="btn btn--primary modal-trigger">Open Modal</button>
+    <button class="btn btn--primary" slot="trigger">Open Modal</button>
     <p>
       <b>Please sign-in to access this part of the application.</b>
     </p>
@@ -52,7 +52,7 @@ Modal triggered by link
   btn-modal-positive="Continue"
   btn-modal-negative="Back"
   modal-heading="Sign-in required">
-    <a href="javascript:void(0)" class="modal-trigger">Open Modal</a>
+    <a href="javascript:void(0)" slot="trigger">Open Modal</a>
     <p>
       <b>Please sign-in to access this part of the application.</b>
     </p>

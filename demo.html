@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>px-modal simple demo (using Polymer 2.0)</title>
+
+  <!-- Load webcomponentsjs + Polymer -->
+  <script src="../webcomponentsjs/webcomponents-loader.js"></script>
+  <link rel="import" href="../polymer/polymer.html"/>
+
+  <!-- Load and use px-theme -->
+  <link rel="import" href="../px-theme/px-theme-styles.html"/>
+  <custom-style>
+    <style include="px-theme-styles"></style>
+  </custom-style>
+
+  <!-- Load px-modal -->
+  <link rel="import" href="px-modal.html"/>
+</head>
+<body>
+  <px-modal
+      btn-modal-positive="Submit"
+      btn-modal-negative="Cancel"
+      modal-heading="Magna Adipiscing">
+    <button class="btn btn--primary" slot="trigger">Open Modal</button>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </px-modal>
+</body>
+</html>
