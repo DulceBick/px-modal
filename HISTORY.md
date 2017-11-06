@@ -1,3 +1,15 @@
+v2.0.8
+==================
+* add device flags
+
+v2.0.7
+==================
+* fix #17, switch content to slot
+
+v2.0.6
+==================
+* fix #21, prevent modal from reappearing
+
 v2.0.5
 ==================
 * temp fix for css @apply bug
